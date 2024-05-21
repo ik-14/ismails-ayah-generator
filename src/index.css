@@ -45,11 +45,12 @@ body {
   border: 2px solid #1a1a1a;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3b3b3b;
+  color: #fff;
+  background-color: #1a1a1a1c;
   cursor: pointer;
   display: inline-block;
   font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 16px;
+  /* font-size: em; */
   font-weight: 600;
   line-height: normal;
   margin: 0;
@@ -84,17 +85,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .textWrapper {
-    /* margin-left: 25em; */
-    /* margin-right: 25em; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    /* text-align: center; */
-
-    color: red;
+    color: #969d96;
     font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
-    /* font-weight: 100; */
     font-style: normal;
+    font-size: .7em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
